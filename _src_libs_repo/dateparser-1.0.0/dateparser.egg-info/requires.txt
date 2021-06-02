@@ -1,0 +1,11 @@
+python-dateutil
+pytz
+regex!=2019.02.19
+tzlocal
+
+[calendars:python_version<"3.6"]
+convertdate
+
+[calendars:python_version>="3.6"]
+hijri-converter
+convertdate
